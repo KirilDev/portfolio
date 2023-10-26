@@ -1,54 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
+
     <link rel="shortcut icon" href="content/editor.png">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KirilDev Portfolio</title>
 </head>
-<body>
 
-    <header class="header">
-        <div class="logo">
+<body onload="IsMobileOrComputer()">
+
+    <header class="header"> 
             <img src="content/editor.png" alt="Ooops..." height="100" width="100">
-        </div>
-
-        <div class="navigation">
-            <ul class="nav">
-                <ol class="navElem"><h2><a href="#">Works</a></h2></ol>
-                <ol class="navElem"><h2><a href="##">Certificates</a></ol>
-                <ol class="navElem"><h2><a href="###">About Me</a></ol>
-                <ol class="navElem"><h2><a href="index.html#footer">Contact</a></ol>
-            </ul>
-        </div>
     </header>
 
-    <div class="main_info"></div>
-    <div class="works">
-        <h1>My Projects</h1>
-        <div class="work_card">
-            <img src="content/web-pet-project.svg" alt="">
+    <div class="main_info">
+        <div class="text" style="font-size: 25px;">
+            <h1>Hey there!</h1>
+            <br>
+            <h2>My Name Is Kirill.</h2>
+            <br>
+            <h2>I'm from Latvia.</h2>
+            <br>
+            <h2>And I'm Software Developer.</h2>
         </div>
-        <div class="work_card">
-            <img src="content/web-pet-project.svg" alt="">
+             <img class="main_info_image" src="content/photo1698315215.jpeg" alt="Oppppsssss......." height="480" width="550" style=" border-radius: 10%;">
+    </div>
+
+    <div class="works" id="works">
+        <center>
+            <h1 class="title_work">My Projects</h1>
+        </center>
+
+        <br>
+        <div class="card">
+            <div class="work_card">
+                <img src="content/web-pet-project.svg" alt="">
+            </div>
+            <div class="work_card">
+                <img src="content/web-pet-project.svg" alt="">
+            </div>
         </div>
-        <div class="work_card">
-            <img src="content/web-pet-project.svg" alt="">
-        </div>
+
     </div>
 
 
 
     <footer class="footer" id="footer">
+
+        <div class="left_data">
+            <h1>Contacts</h1>
+            <ul style="display: inline;">
+                <ol><h3><a href="mailto:global_entertaining_applications@proton.me" target="_blank"><img src="content/email.png" alt="" srcset="" height="50" width="50"></a></h3></ol>
+                <ol><h3><a href="https://www.instagram.com/liushchin/?hl=en" target="_blank"><img src="content/instagram.png" alt="" srcset="" height="50" width="50"></a></h3></ol>
+                <ol><h3><a href="https://github.com/KirilDev" target="_blank"><img src="content/github.png" alt="" srcset="" height="50" width="50"></a></h3></ol>
+            </ul>
+        </div>
+        <div class="right_data">
+            <h1>Social Networks:</h1>
+            <ul style="display: inline;">
+                <ol><h3><a href="https://www.instagram.com/liushchin/?hl=en" target="_blank"><img src="content/instagram.png" alt="" srcset="" height="50" width="50"></a></h3></ol>
+                <ol><h3><a href="https://github.com/KirilDev" target="_blank"><img src="content/github.png" alt="" srcset="" height="50" width="50"></a></h3></ol>
+            </ul>
+        </div>
     </footer>
 
 
     <script src="js/index.js"></script>
 </body>
+
 </html>
 
 
 
-<!--Thank you  <a href="https://www.flaticon.com/free-icons/ide" title="ide icons">Ide icons created by Flat Icons - Flaticon</a>-->
+
+<!--
+    <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
+    Thank you  <a href="https://www.flaticon.com/free-icons/ide" title="ide icons">Ide icons created by Flat Icons - Flaticon</a> <a href="https://www.flaticon.com/free-icons/arrows" title="arrows icons">Arrows icons created by Lagot Design - Flaticon</a>-->

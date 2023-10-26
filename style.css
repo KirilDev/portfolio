@@ -1,53 +1,62 @@
-*
-{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-body
-{
-}
-
 a
 {
     text-decoration: none;
     color: black;
 }
+*
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+  }
+
+  @font-face {
+    font-family: h2_style_font;
+    src: url("fonts/Shantell_Sans/ShantellSans-VariableFont_wght.ttf");
+  }
 /*Code for index.html*/
 
-
+.h2_style
+{
+    font-family: h2_style_font, sans-serif;
+}
 .header
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-bottom: 30px ;
 }
 
 .footer
 {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding: 20px;
 }
 
-
-
-
-.nav
-{
-    margin-top: 30px;
-    display: flex;
-}
-.navElem
-{
-    font-size: 20px;
-    display: inline;
-}
-
-.works
+.card
 {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
+    overflow: hidden;
 }
-.work_card
+
+.main_info
 {
-    border-radius: 2px;
-    box-shadow: 4px 4px 8px black;
+    padding: 10px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-bottom: 40px;
 }
