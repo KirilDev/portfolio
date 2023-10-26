@@ -5,22 +5,49 @@
 }
 body
 {
-    color: white;
-    background-color: black;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
 }
 /*Code for index.html*/
+
+
 .header
 {
-    
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer
 {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(34, 34, 34);
-    width: 100%;
-    height: max-content;
-    color: white;
+}
+
+
+
+
+.nav
+{
+    margin-top: 30px;
+    display: flex;
+}
+.navElem
+{
     font-size: 20px;
+    display: inline;
+}
+
+.works
+{
+    display: flex;
+    justify-content: space-around;
+}
+.work_card
+{
+    border-radius: 2px;
+    box-shadow: 2px 2px 1px black;
 }
