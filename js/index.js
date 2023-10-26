@@ -2,6 +2,6 @@ function IsMobileOrComputer ()
 {
     if (/Android|iPhone|iPod|iPad/i.test(navigator.userAgent))
     {
-        window.location.replace("/portfolio/mobile/mobile.html");
+        window.location.href = "https://kirildev.github.io/portfolio/mobile/mobile.html";
     }
 }
