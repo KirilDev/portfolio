@@ -1,0 +1,62 @@
+a
+{
+    text-decoration: none;
+    color: black;
+}
+*
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+  }
+
+  @font-face {
+    font-family: h2_style_font;
+    src: url("fonts/Shantell_Sans/ShantellSans-VariableFont_wght.ttf");
+  }
+/*Code for index.html*/
+
+.h2_style
+{
+    font-family: h2_style_font, sans-serif;
+}
+.header
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px ;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.card
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.main_info
+{
+    padding: 10px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-bottom: 40px;
+}

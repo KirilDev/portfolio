@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="shortcut icon" href="content/editor.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KirilDev Portfolio</title>
+</head>
+
+<body onload="IsMobileOrComputer()">
+
+    <header class="header"> 
+            <img src="content/editor.png" alt="Ooops..." height="100" width="100">
+    </header>
+
+    <div class="main_info">
+        <div class="text" style="font-size: 25px;">
+            <h1>Hey there!</h1>
+            <br>
+            <h2>My Name Is Kirill.</h2>
+            <br>
+            <h2>I'm from Latvia.</h2>
+            <br>
+            <h2>And I'm Software Developer.</h2>
+        </div>
+             <img class="main_info_image" src="content/photo1698315215.jpeg" alt="Oppppsssss......." height="480" width="550" style=" border-radius: 10%;">
+    </div>
+
+    <div class="works" id="works">
+        <center>
+            <h1 class="title_work">My Projects</h1>
+        </center>
+
+        <br>
+        <div class="card">
+            <div class="work_card">
+                <img src="content/web-pet-project.svg" alt="">
+            </div>
+            <div class="work_card">
+                <img src="content/web-pet-project.svg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer class="footer" id="footer">
+
+        <div class="left_data">
+            <h1>Contacts</h1>
+            <ul style="display: inline;">
+                <ol><h3><a href="mailto:global_entertaining_applications@proton.me" target="_blank"><img src="content/email.png" alt="" srcset="" height="50" width="50"></a></h3></ol>
+                <ol><h3><a href="https://www.instagram.com/liushchin/?hl=en" target="_blank"><img src="content/instagram.png" alt="" srcset="" height="50" width="50"></a></h3></ol>
+                <ol><h3><a href="https://github.com/KirilDev" target="_blank"><img src="content/github.png" alt="" srcset="" height="50" width="50"></a></h3></ol>
+            </ul>
+        </div>
+        <div class="right_data">
+            <h1>Social Networks:</h1>
+            <ul style="display: inline;">
+                <ol><h3><a href="https://www.instagram.com/liushchin/?hl=en" target="_blank"><img src="content/instagram.png" alt="" srcset="" height="50" width="50"></a></h3></ol>
+                <ol><h3><a href="https://github.com/KirilDev" target="_blank"><img src="content/github.png" alt="" srcset="" height="50" width="50"></a></h3></ol>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyD2sOy36Z9XBSH57iNmhH5WXWCx5rfORxc",
+          authDomain: "awesome-firebase-deploy.firebaseapp.com",
+          projectId: "awesome-firebase-deploy",
+          storageBucket: "awesome-firebase-deploy.appspot.com",
+          messagingSenderId: "82896415871",
+          appId: "1:82896415871:web:7d805e9fb00faf33dd234a",
+          measurementId: "G-RG56EQ2BC0"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+
+
+    <script src="js/index.js"></script> 
+</body>
+
+</html>
+
+
+
+
+<!--
+    <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
+    Thank you  <a href="https://www.flaticon.com/free-icons/ide" title="ide icons">Ide icons created by Flat Icons - Flaticon</a> <a href="https://www.flaticon.com/free-icons/arrows" title="arrows icons">Arrows icons created by Lagot Design - Flaticon</a>-->

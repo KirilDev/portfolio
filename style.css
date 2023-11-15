@@ -8,55 +8,48 @@ a
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-*::-webkit-scrollbar {
-    display: none;
-  }
-
   @font-face {
     font-family: h2_style_font;
     src: url("fonts/Shantell_Sans/ShantellSans-VariableFont_wght.ttf");
   }
 /*Code for index.html*/
-
-.h2_style
+header
 {
-    font-family: h2_style_font, sans-serif;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: max-content;
+    font-size: 20px;
+    
 }
-.header
+ul
 {
+    display: flex;
+    flex-direction: row;
+
+}
+.hello_world
+{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
-    margin-bottom: 30px ;
-}
-
-.footer
-{
-    display: flex;
-    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
     height: max-content;
-    background-color: black;
+    font-size: 25px;
+}
+.content_below
+{
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    font-size: 20px; 
+    background-color: silver;
     color: white;
-    overflow: hidden;
-    padding: 20px;
-}
-
-.card
-{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    overflow: hidden;
-}
-
-.main_info
-{
-    padding: 10px;
-    width: 100%;
-    height: max-content;
-    display: flex;
-    justify-content: space-around;
-    overflow: hidden;
-    margin-bottom: 40px;
 }
