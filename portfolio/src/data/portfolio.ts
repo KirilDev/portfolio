@@ -58,9 +58,9 @@ export const experiences: Experience[] = [
     duration: "June 2025 - August 2025",
     location: "Onsite, Riga, Latvia",
     description: [
-      "Summer part-time job as a barista at Karumu Sala, a popular café in Riga"
+      "Summer part-time job as a barista at Karumu Sala, café in Riga"
     ],
-    technologies: ["Python", "Java", "C++", "Data Structures", "Algorithms"],
+    technologies: ["Team Work", "Coffee Making", "Time management", "Communications"],
     type: "work"
   },
   {
@@ -72,7 +72,7 @@ export const experiences: Experience[] = [
     description: [
       "Intern at DevOps Wizards, a software development company",
     ],
-    technologies: ["Python", "Git/GitHub", "Linux", "Ansible", "Attlasian Products (Trello, Confluence)", "Google Meet"],
+    technologies: ["Python", "Git/GitHub", "Linux", "Ansible", "Attlasian Products (Trello, Confluence)", "Google Meet", "n8n"],
     type: "work"
   },
       {
@@ -111,7 +111,7 @@ export const projects: Project[] = [
     imageUrl: "https://media.licdn.com/dms/image/v2/D4D3DAQHNMwIE5hYE0w/image-scale_191_1128/B4DZfP11wCGsAc-/0/1751538687580/cozy_akita_studio_cover?e=2147483647&v=beta&t=CvGLRAVYsz4pkpEB6k9SeVZ_GMb50gZyelzvrU8v2ok",
     demoUrl: "https://itskirill.vercel.app",
     githubUrl: "https://github.com/KirilDev/portfolio",
-    featured: true,
+    featured: false,
     category: "Development"
   },
   {
