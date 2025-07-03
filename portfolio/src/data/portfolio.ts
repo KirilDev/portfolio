@@ -44,7 +44,7 @@ export const experiences: Experience[] = [
     company: "Karumu Sala",
     position: "Barista",
     duration: "June 2025 - August 2025",
-    location: "Riga, Latvia",
+    location: "Onsite, Riga, Latvia",
     description: [
       "Summer part-time job as a barista at Karumu Sala, a popular café in Riga"
     ],
@@ -56,7 +56,7 @@ export const experiences: Experience[] = [
     company: "DevOps Wizards",
     position: "Staff Developer Intern",
     duration: "March 2025 - Present",
-    location: "Remote",
+    location: "Remote, Riga, Latvia",
     description: [
       "Intern at DevOps Wizards, a software development company",
     ],
@@ -68,7 +68,7 @@ export const experiences: Experience[] = [
     company: "Cozy 秋田 Studio",
     position: "Founder",
     duration: "July 2025 - Present",
-    location: "Riga, Latvia",
+    location: "On-site, Riga, Latvia",
     description: [
       "my little cozy space where i create content, IT projects, etc."
     ],
@@ -90,11 +90,35 @@ export const projects: Project[] = [
     featured: true,
     category: "Hackathon"
   },
+  {
+    id: "2",
+    title: "Personal Portfolio",
+    description: "My personal portfolio website created with modern framework like React and Vite and using Vercel for deployment and modern AI tools to learn new technologies.",
+    longDescription: "My personal portfolio website created with modern framework like React and Vite",
+    technologies: ["React", "Vite", "TypeScript", "Vercel"],
+    imageUrl: "",
+    demoUrl: "https://itskirill.vercel.app",
+    githubUrl: "https://github.com/KirilDev/portfolio",
+    featured: true,
+    category: "Development"
+  },
+  {
+    id: "3",
+    title: "HR Assistant",
+    description: "Hackathon project for Hack4AI 2024",
+    longDescription: "HR Assistant - AI-powered solution for HR's to automate tasks and improve efficiency.",
+    technologies: ["Python", "Flask", "HTML/CSS"],
+    imageUrl: "",
+    demoUrl: "https://devpost.com/software/project12",
+    githubUrl: "https://github.com/KirilDev",
+    featured: false,
+    category: "Hackathon"
+  },
 ];
 
 export const skills: Skill[] = [
   {
-    category: "Programming Languages",
-    items: ["Python"]
+    category: "Skills",
+    items: ["Python", "Git", "GitHub"]
   },
 ];
