@@ -40,6 +40,18 @@ export const personalInfo = {
 
 export const experiences: Experience[] = [
   {
+    id: "0",
+    company: "Riga State Technical School (RVT)",
+    position: "Student",
+    duration: "September 2024 - Present",
+    location: "Onsite, Riga, Latvia",
+    description: [
+      "Currently pursuing a Secondary professional degree in Computer Science at the Riga State Technical School."
+    ],
+    technologies: ["Python", "Git", "HTML", "CSS", "Software Development Basics", "Figma", "Office Environment"],
+    type: "education"
+  },
+  {
     id: "1",
     company: "Karumu Sala",
     position: "Barista",
@@ -63,7 +75,7 @@ export const experiences: Experience[] = [
     technologies: ["Python", "Git/GitHub", "Linux", "Ansible", "Attlasian Products (Trello, Confluence)", "Google Meet"],
     type: "work"
   },
-  {
+      {
     id: "3",
     company: "Cozy 秋田 Studio",
     position: "Founder",
@@ -72,9 +84,9 @@ export const experiences: Experience[] = [
     description: [
       "my little cozy space where i create content, IT projects, etc."
     ],
-    technologies: [],
+    technologies: ["Content Creation", "Project Management", "Pet-Projects"],
     type: "work"
-  }
+  },
 ];
 
 export const projects: Project[] = [
@@ -93,8 +105,8 @@ export const projects: Project[] = [
   {
     id: "2",
     title: "Personal Portfolio",
-    description: "My personal portfolio website created with modern framework like React and Vite and using Vercel for deployment and modern AI tools to learn new technologies.",
-    longDescription: "My personal portfolio website created with modern framework like React and Vite",
+    description: "My personal portfolio website created with modern framework like React and Vite and using Vercel for deployment and modern AI tools to learn new technologies. This portfolio created as a project for Summer of Code 2025 organized by Hack Club.",
+    longDescription: "My personal portfolio website created with modern framework like React and Vite.",
     technologies: ["React", "Vite", "TypeScript", "Vercel"],
     imageUrl: "https://media.licdn.com/dms/image/v2/D4D3DAQHNMwIE5hYE0w/image-scale_191_1128/B4DZfP11wCGsAc-/0/1751538687580/cozy_akita_studio_cover?e=2147483647&v=beta&t=CvGLRAVYsz4pkpEB6k9SeVZ_GMb50gZyelzvrU8v2ok",
     demoUrl: "https://itskirill.vercel.app",

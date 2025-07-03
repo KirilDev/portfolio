@@ -53,6 +53,18 @@ const Header = () => {
             >
               Contact
             </button>
+              <button 
+              onClick={() => window.open('https://www.youtube.com/@kirill_akita', '_blank')}
+              className="text-foreground hover:text-primary transition-colors duration-200"
+            >
+              YouTube
+            </button>
+               <button 
+              onClick={() => window.open('https://www.linkedin.com/in/kirils-luscins/', '_blank')}
+              className="text-foreground hover:text-primary transition-colors duration-200"
+            >
+              LinkedIn
+            </button>
             <button 
               onClick={handleScheduleMeeting}
               className="btn-primary flex items-center gap-2"
