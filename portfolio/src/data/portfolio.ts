@@ -1,0 +1,100 @@
+
+export interface Experience {
+  id: string;
+  company: string;
+  position: string;
+  duration: string;
+  location: string;
+  description: string[];
+  technologies: string[];
+  type: 'work' | 'education' | 'project';
+}
+
+export interface Project {
+  id: string;
+  title: string;
+  description: string;
+  longDescription: string;
+  technologies: string[];
+  imageUrl: string;
+  demoUrl?: string;
+  githubUrl?: string;
+  featured: boolean;
+  category: string;
+}
+
+export interface Skill {
+  category: string;
+  items: string[];
+}
+
+export const personalInfo = {
+  name: "Kirill",
+  title: "Student & Technology Enthusiast",
+  email: "kirilluschin@gmail.com",
+  phone: "+371 26006893",
+  location: "Latvia",
+  bio: "Passionate student exploring the intersection of technology and creativity. I love building innovative solutions and learning new technologies that push the boundaries of what's possible.",
+  calendlyUrl: "https://calendar.app.google/fAqqYLJBLPk38QjM8"
+};
+
+export const experiences: Experience[] = [
+  {
+    id: "1",
+    company: "Karumu Sala",
+    position: "Barista",
+    duration: "June 2025 - August 2025",
+    location: "Riga, Latvia",
+    description: [
+      "Summer part-time job as a barista at Karumu Sala, a popular café in Riga"
+    ],
+    technologies: ["Python", "Java", "C++", "Data Structures", "Algorithms"],
+    type: "work"
+  },
+  {
+    id: "2",
+    company: "DevOps Wizards",
+    position: "Staff Developer Intern",
+    duration: "March 2025 - Present",
+    location: "Remote",
+    description: [
+      "Intern at DevOps Wizards, a software development company",
+    ],
+    technologies: ["Python", "Git/GitHub", "Linux", "Ansible", "Attlasian Products (Trello, Confluence)", "Google Meet"],
+    type: "work"
+  },
+  {
+    id: "3",
+    company: "Cozy 秋田 Studio",
+    position: "Founder",
+    duration: "July 2025 - Present",
+    location: "Riga, Latvia",
+    description: [
+      "my little cozy space where i create content, IT projects, etc."
+    ],
+    technologies: [],
+    type: "work"
+  }
+];
+
+export const projects: Project[] = [
+  {
+    id: "1",
+    title: "Glappy: AI Mental Health Assistant",
+    description: "Hackathon project for Hack4AI 2025",
+    longDescription: "Hackathon project for Hack4AI 2025.",
+    technologies: ["Python", "OpenAI API", "Native HTML&CSS&JS"],
+    imageUrl: "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/387/126/datas/original.jpg",
+    demoUrl: "https://devpost.com/software/glappy",
+    githubUrl: "https://github.com/kirill/ai-creative-assistant",
+    featured: true,
+    category: "Hackathon"
+  },
+];
+
+export const skills: Skill[] = [
+  {
+    category: "Programming Languages",
+    items: ["Python"]
+  },
+];
