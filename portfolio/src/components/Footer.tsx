@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="bg-card border-t border-border py-12">
       <div className="container-custom section-padding">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-8">
+         {/*} <div className="mb-8">
             <h3 className="text-2xl font-display font-semibold text-primary mb-4">
               Ready to Start Something Amazing?
             </h3>
@@ -27,8 +27,8 @@ const Footer = () => {
               Schedule Free Meeting
             </button>
           </div>
-          
-          <div className="border-t border-border pt-8">
+          */}
+          {/*<div className="border-t border-border pt-8">*/}
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-xl font-display font-semibold text-primary">
                 it's Kirill
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+     {/*</footer> */}
     </footer>
   );
 };

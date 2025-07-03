@@ -45,13 +45,13 @@ const Hero = () => {
               Learn More
               <ArrowDown size={16} />
             </button>
-            <button 
+            {/*<button
               onClick={handleScheduleMeeting}
               className="btn-primary flex items-center gap-2"
             >
               <Calendar size={16} />
               Schedule a Meeting
-            </button>
+            </button>*/}
           </div>
 
           <div className="animate-bounce">

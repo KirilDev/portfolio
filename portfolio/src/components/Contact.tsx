@@ -49,12 +49,11 @@ const Contact = () => {
             <div className="animate-slide-up">
               <div className="bg-card p-8 rounded-xl shadow-lg">
                 <h3 className="text-2xl font-display font-semibold mb-6 text-primary">
-                  Schedule a Meeting
+                  Ready to Start Something Amazing?
                 </h3>
                 
                 <p className="text-muted-foreground mb-6">
-                  Ready to discuss your project or explore collaboration opportunities? 
-                  Let's schedule a free consultation to see how we can work together.
+                  Let's discuss your next project and bring your ideas to life.
                 </p>
                 
                 <button 
@@ -62,7 +61,7 @@ const Contact = () => {
                   className="btn-primary w-full flex items-center justify-center gap-2"
                 >
                   <Calendar size={16} />
-                  Book Free Consultation
+                  Schedule an appointment
                 </button>
                 
                 <p className="text-sm text-muted-foreground text-center mt-4">
