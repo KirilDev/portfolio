@@ -54,14 +54,14 @@ const Hero = () => {
             </button>*/}
           </div>
 
-          <div className="animate-bounce">
+          {/*<div className="animate-bounce">
             <button 
               onClick={scrollToAbout}
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <ArrowDown size={32} />
             </button>
-          </div>
+          </div>*/}
         </div>
       </div>
     </section>
