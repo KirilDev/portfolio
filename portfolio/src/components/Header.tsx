@@ -114,13 +114,13 @@ const Header = () => {
 
             <button 
               onClick={() => window.open('https://www.youtube.com/@kirill_akita', '_blank')}
-              className="text-foreground hover:text-primary transition-colors duration-200"
+              className="text-left text-foreground hover:text-primary transition-colors duration-200"
             >
               YouTube
             </button>
                <button 
               onClick={() => window.open('https://www.linkedin.com/in/kirils-luscins/', '_blank')}
-              className="text-foreground hover:text-primary transition-colors duration-200"
+              className="text-left text-foreground hover:text-primary transition-colors duration-200"
             >
               LinkedIn
             </button>
