@@ -33,7 +33,7 @@ const Footer = () => {
               <div className="text-xl font-display font-semibold text-primary">
                 it's Kirill
               </div>
-              
+              <iframe src="https://webring.hackclub.com/embed.html" width="90px" height="60px" frameborder="0"></iframe>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <span>Made with</span>
                 <Heart size={16} className="text-red-500 fill-current" />
