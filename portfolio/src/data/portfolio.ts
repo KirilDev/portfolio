@@ -132,7 +132,7 @@ export const projects: Project[] = [
     description: "GameJam Project for Gun Game Studio",
     longDescription: "GameJam project for Gun Game Studio, created in 72 hours with my brother (BrothersTeam)",
     technologies: ["Unity", "C#", "GitHub", "3D Voxel"],
-    imageUrl: "../lib/0vWXYm.png",
+    imageUrl: "https://img.itch.zone/aW1hZ2UvMjExMzMwMC8xMjQ0Mjk2Ni5wbmc=/original/0vWXYm.png",
     demoUrl: "https://brothersteam.itch.io/digital-escape",
     githubUrl: "https://github.com/KirilDev/The-Game-Jam-Project",
     featured: false,
