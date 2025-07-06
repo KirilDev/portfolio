@@ -126,6 +126,18 @@ export const projects: Project[] = [
     featured: false,
     category: "Hackathon"
   },
+   {
+    id: "4",
+    title: "Digital Escape",
+    description: "GameJam Project for Gun Game Studio",
+    longDescription: "GameJam project for Gun Game Studio, created in 72 hours with my brother (BrothersTeam)",
+    technologies: ["Unity", "C#", "GitHub", "3D Voxel"],
+    imageUrl: "../lib/0vWXYm.png",
+    demoUrl: "https://brothersteam.itch.io/digital-escape",
+    githubUrl: "https://github.com/KirilDev/The-Game-Jam-Project",
+    featured: false,
+    category: "Hackathon"
+  },
 ];
 
 export const skills: Skill[] = [
