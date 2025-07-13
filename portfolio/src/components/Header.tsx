@@ -29,7 +29,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <button 
+           {/**  <button 
               onClick={() => scrollToSection('about')}
               className="text-foreground hover:text-primary transition-colors duration-200"
             >
@@ -40,18 +40,12 @@ const Header = () => {
               className="text-foreground hover:text-primary transition-colors duration-200"
             >
               Experience
-            </button>
+            </button>*/}
             <button 
               onClick={() => scrollToSection('projects')}
               className="text-foreground hover:text-primary transition-colors duration-200"
             >
               Projects
-            </button>
-            <button 
-              onClick={() => scrollToSection('contact')}
-              className="text-foreground hover:text-primary transition-colors duration-200"
-            >
-              Contact
             </button>
               <button 
               onClick={() => window.open('https://www.youtube.com/@kirill_akita', '_blank')}
@@ -64,6 +58,19 @@ const Header = () => {
               className="text-foreground hover:text-primary transition-colors duration-200"
             >
               LinkedIn
+            </button>
+            <button 
+              onClick={() => window.open('https://strava.app.link/a2OLVYY1WUb', '_blank')}
+              className="text-left text-foreground hover:text-primary transition-colors duration-200"
+            >
+              Strava
+            </button>
+
+            <button 
+              onClick={() => scrollToSection('contact')}
+              className="text-foreground hover:text-primary transition-colors duration-200"
+            >
+              Contact
             </button>
             <button 
               onClick={handleScheduleMeeting}
@@ -87,7 +94,7 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-border animate-fade-in">
             <nav className="flex flex-col space-y-4">
-              <button 
+          {/*   <button 
                 onClick={() => scrollToSection('about')}
                 className="text-left text-foreground hover:text-primary transition-colors duration-200"
               >
@@ -98,18 +105,12 @@ const Header = () => {
                 className="text-left text-foreground hover:text-primary transition-colors duration-200"
               >
                 Experience
-              </button>
+              </button>*/}
               <button 
                 onClick={() => scrollToSection('projects')}
                 className="text-left text-foreground hover:text-primary transition-colors duration-200"
               >
                 Projects
-              </button>
-              <button 
-                onClick={() => scrollToSection('contact')}
-                className="text-left text-foreground hover:text-primary transition-colors duration-200"
-              >
-                Contact
               </button>
 
             <button 
@@ -124,6 +125,19 @@ const Header = () => {
             >
               LinkedIn
             </button>
+            <button 
+              onClick={() => window.open('https://strava.app.link/a2OLVYY1WUb', '_blank')}
+              className="text-left text-foreground hover:text-primary transition-colors duration-200"
+            >
+              Strava
+            </button>
+
+            <button 
+                onClick={() => scrollToSection('contact')}
+                className="text-left text-foreground hover:text-primary transition-colors duration-200"
+              >
+                Contact
+              </button>
               <button 
                 onClick={handleScheduleMeeting}
                 className="btn-primary flex items-center gap-2 justify-center mt-4"
