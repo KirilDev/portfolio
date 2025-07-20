@@ -17,10 +17,6 @@ const About = () => {
                 I'm a passionate computer science student who believes technology can be a powerful force for creativity and positive change. My journey in tech started with curiosity and has evolved into a deep appreciation for crafting elegant solutions to complex problems.
               </p>
               
-              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                When I'm not coding, you'll find me exploring the latest in AI, experimenting with new frameworks, or collaborating on projects that bridge the gap between technology and human creativity.
-              </p>
-              
               <p className="text-lg text-muted-foreground leading-relaxed">
                 I'm always excited to connect with fellow creators, learn from experienced professionals, and contribute to meaningful projects that make a difference.
               </p>
