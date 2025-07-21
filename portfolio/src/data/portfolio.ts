@@ -1,3 +1,5 @@
+import certCLI from '../lib/certCLI.png';
+import certPreAccelerator from '../lib/certPreaccelerator.png';
 
 export interface Experience {
   id: string;
@@ -20,6 +22,17 @@ export interface Project {
   demoUrl?: string;
   githubUrl?: string;
   featured: boolean;
+  category: string;
+}
+
+export interface Certificate {
+  id: string;
+  title: string;
+  description: string;
+  issuer: string;
+  issueDate: string;
+  imageUrl: string;
+  certificateUrl: string;
   category: string;
 }
 
@@ -137,6 +150,29 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/KirilDev/The-Game-Jam-Project",
     featured: false,
     category: "Hackathon"
+  },
+];
+
+export const certificates: Certificate[] = [
+  {
+    id: "1",
+    title: "Command line Basics",
+    description: "A comprehensive introduction to Python programming, covering data structures, web scraping, and databases.",
+    issuer: "Scrimba",
+    issueDate: "July 21 2025",
+    imageUrl: certCLI,
+    certificateUrl: "https://www.coursera.org/account/accomplishments/certificate/ABC123456789",
+    category: ""
+  },
+    {
+    id: "2",
+    title: "Pre-accelerator Program Part 1 ",
+    description: "A comprehensive introduction to Python programming, covering data structures, web scraping, and databases.",
+    issuer: "Startup House Riga",
+    issueDate: "June 14 2025",
+    imageUrl: certPreAccelerator,
+    certificateUrl: "https://www.coursera.org/account/accomplishments/certificate/ABC123456789",
+    category: ""
   },
 ];
 
