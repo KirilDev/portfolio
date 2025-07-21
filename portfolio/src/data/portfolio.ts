@@ -179,6 +179,6 @@ export const certificates: Certificate[] = [
 export const skills: Skill[] = [
   {
     category: "Skills",
-    items: ["Python", "Git", "GitHub"]
+    items: ["Python", "Git", "GitHub", "React Basics", "Frontend Development"]
   },
 ];

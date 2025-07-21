@@ -138,6 +138,12 @@ const Header = () => {
               >
                 Contact
               </button>
+            <button 
+              onClick={() => scrollToSection('certificates')}
+              className="text-foreground hover:text-primary transition-colors duration-200"
+            >
+              Certificates
+            </button>
               <button 
                 onClick={handleScheduleMeeting}
                 className="btn-primary flex items-center gap-2 justify-center mt-4"

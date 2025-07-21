@@ -12,7 +12,7 @@ const Certificates = () => {
     : certificates.filter(p => p.category === filter);
 
   return (
-    <section id="projects" className="py-20 bg-card/50">
+    <section id="certificates" className="py-20 bg-card/50">
       <div className="container-custom section-padding">
         <h2 className="text-4xl md:text-5xl font-display font-bold text-center mb-16 animate-slide-up">
           Certificates
