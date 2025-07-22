@@ -1,5 +1,6 @@
 import certCLI from '../lib/certCLI.png';
 import certPreAccelerator from '../lib/certPreaccelerator.png';
+import niktobofia from '../lib/image.png';
 
 export interface Experience {
   id: string;
@@ -53,6 +54,18 @@ export const personalInfo = {
 
 export const experiences: Experience[] = [
   {
+    id: "3",
+    company: "Cozy 秋田 Studio",
+    position: "Founder",
+    duration: "July 2025 - Present",
+    location: "On-site, Riga, Latvia",
+    description: [
+      "my little cozy space where i create content, IT projects, etc."
+    ],
+    technologies: ["Content Creation", "Project Management", "Pet-Projects"],
+    type: "work"
+  },
+  {
     id: "0",
     company: "Riga State Technical School (RVT)",
     position: "Student",
@@ -79,8 +92,8 @@ export const experiences: Experience[] = [
   {
     id: "2",
     company: "DevOps Wizards",
-    position: "Staff Developer Intern",
-    duration: "March 2025 - Present",
+    position: "Intern Developer",
+    duration: "March 2025 - June 2025",
     location: "Remote, Riga, Latvia",
     description: [
       "Intern at DevOps Wizards, a software development company",
@@ -88,18 +101,18 @@ export const experiences: Experience[] = [
     technologies: ["Python", "Git/GitHub", "Linux", "Ansible", "Attlasian Products (Trello, Confluence)", "Google Meet", "n8n"],
     type: "work"
   },
-      {
-    id: "3",
-    company: "Cozy 秋田 Studio",
-    position: "Founder",
-    duration: "July 2025 - Present",
-    location: "On-site, Riga, Latvia",
+    {
+    id: "2",
+    company: "Young Folks Studios",
+    position: "Junior Game Developer",
+    duration: "January 2023 - August 2025",
+    location: "Hybrid, Riga, Latvia",
     description: [
-      "my little cozy space where i create content, IT projects, etc."
+      "Indi Game Dev company where I work as a Junior Game Developer and in the team built game called 'Niktofobia (https://yfstudios.itch.io/niktofobija)'",
     ],
-    technologies: ["Content Creation", "Project Management", "Pet-Projects"],
+    technologies: ["Unity", "C#", "Git/GitHub", "Discord", "Trello", "Documentation"],
     type: "work"
-  },
+  }
 ];
 
 export const projects: Project[] = [
@@ -149,6 +162,18 @@ export const projects: Project[] = [
     demoUrl: "https://brothersteam.itch.io/digital-escape",
     githubUrl: "https://github.com/KirilDev/The-Game-Jam-Project",
     featured: false,
+    category: "Hackathon"
+  },
+   {
+    id: "5",
+    title: "Niktofobia",
+    description: "Young Fols Studios Project",
+    longDescription: "3D horror from the first person. Play as the girl Eva, with a hazy past and fear of the dark.",
+    technologies: ["Unity", "C#"],
+    imageUrl: niktobofia,
+    demoUrl: "https://yfstudios.itch.io/niktofobija",
+    githubUrl: "https://tomasvotruba.com/assets/images/posts/2020/kodiak/kodiak_focus.png",
+    featured: true,
     category: "Hackathon"
   },
 ];
