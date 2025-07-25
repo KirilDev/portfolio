@@ -105,7 +105,7 @@ export const experiences: Experience[] = [
     id: "2",
     company: "Young Folks Studios",
     position: "Junior Game Developer",
-    duration: "January 2023 - August 2025",
+    duration: "January 2023 - August 2023",
     location: "Hybrid, Riga, Latvia",
     description: [
       "Indi Game Dev company where I work as a Junior Game Developer and in the team built game called 'Niktofobia (https://yfstudios.itch.io/niktofobija)'",
