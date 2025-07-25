@@ -1,6 +1,7 @@
 import certCLI from '../lib/certCLI.png';
 import certPreAccelerator from '../lib/certPreaccelerator.png';
 import niktobofia from '../lib/image.png';
+import certHTMLCSS from '../lib/certHTMLCSS.png'
 
 export interface Experience {
   id: string;
@@ -197,6 +198,16 @@ export const certificates: Certificate[] = [
     issueDate: "June 14 2025",
     imageUrl: certPreAccelerator,
     certificateUrl: "https://www.coursera.org/account/accomplishments/certificate/ABC123456789",
+    category: ""
+  },
+  {
+    id: "3",
+    title: "Learn HTML and CSS",
+    description: "A comprehensive introduction to Python programming, covering data structures, web scraping, and databases.",
+    issuer: "Scrimba",
+    issueDate: "July 24 2025",
+    imageUrl: certHTMLCSS,
+    certificateUrl: "https://scrimba.com/certificate-cert2uNjfKA1yk1diHJ1q7vJU5YCmtxiFjziNPz",
     category: ""
   },
 ];
