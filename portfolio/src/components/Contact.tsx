@@ -1,11 +1,14 @@
 
 import React from 'react';
-import { Mail, MapPin, Calendar } from 'lucide-react';
+import { Mail, MapPin, Calendar, FileTextIcon, CloudDownloadIcon } from 'lucide-react';
 import { personalInfo } from '../data/portfolio';
 
 const Contact = () => {
   const handleScheduleMeeting = () => {
     window.open(personalInfo.calendlyUrl, '_blank');
+  };
+  const openResumeURL = () => {
+    window.open(personalInfo.resumeUrl, '_blank');
   };
 
   return (
@@ -27,6 +30,15 @@ const Contact = () => {
                 or simply chat about technology and creativity. Whether you're looking for a dedicated 
                 team member or want to explore innovative ideas together, I'd love to hear from you.
               </p>
+                <button 
+                  onClick={openResumeURL}
+                  className="btn-primary flex items-center gap-2 justify-center mt-6 mb-6"
+                >
+                  {/* You can use the FileText or CloudDownload icon from lucide-react */}
+                  {/* Example with FileText (document icon): */}
+                  <CloudDownloadIcon size={16} />
+                  Download Resume
+                </button>
               
               <div className="space-y-4">
                 <div className="flex items-center gap-3 text-muted-foreground">

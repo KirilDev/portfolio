@@ -50,7 +50,8 @@ export const personalInfo = {
   phone: "+371 26006893",
   location: "Latvia",
   bio: "Passionate student exploring the intersection of technology and creativity. I love building innovative solutions and learning new technologies that push the boundaries of what's possible.",
-  calendlyUrl: "https://calendar.app.google/fAqqYLJBLPk38QjM8"
+  calendlyUrl: "https://calendar.app.google/fAqqYLJBLPk38QjM8",
+  resumeUrl: "https://drive.google.com/drive/folders/1w5liy6PzNjjsrH8V2RMBfzHCkVnOjTfi?usp=sharing"
 };
 
 export const experiences: Experience[] = [
